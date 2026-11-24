@@ -1,7 +1,5 @@
 # Heart Attack Risk Predictor - Streamlit App
 
-![Heart Attack Risk Predictor](assets/og-image.png)
-
 A Streamlit web application for predicting heart attack risk using an ensemble machine learning model (XGBoost + CatBoost).
 
 ## Features
