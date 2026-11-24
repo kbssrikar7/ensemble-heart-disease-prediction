@@ -1,9 +1,9 @@
 streamlit>=1.28.0
 pandas>=1.5.0
 numpy>=1.23.0
-scikit-learn>=1.2.0
-xgboost>=1.7.0
-catboost>=1.2.0
+scikit-learn==1.7.2  # must match the version used to pickle models/preprocessor.joblib
+xgboost==3.1.1  # matches models/xgb_model.joblib
+catboost==1.2.8  # matches models/cat_model.joblib
 lightgbm>=4.1.0
 joblib>=1.2.0
 shap>=0.49.0
